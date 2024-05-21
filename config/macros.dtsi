@@ -1,3 +1,15 @@
+macro_term_paste: macro_term_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_term_paste";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHFT>, <&kp V>;
+};
+macro_term_copy: macro_term_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_term_copy";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHFT>, <&kp C>;
+};
 macro_tab_prev: macro_tab_prev{
 compatible = "zmk,behavior-macro";
 label = "macro_tab_prev";
